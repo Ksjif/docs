@@ -66,6 +66,7 @@ To verify a domain, you must have access to modify domain records with your doma
 
 ## Approving a domain for your organization
 
+
 {% ifversion fpt or ghes > 3.1 or ghec %}
 
 {% data reusables.enterprise-accounts.approved-domains-beta-note %}
@@ -74,7 +75,8 @@ To verify a domain, you must have access to modify domain records with your doma
 
 {% data reusables.profile.access_org %}
 {% data reusables.profile.org_settings %}
-{% data reusables.organizations.verified-domains %}
+{% data reusabl
+s.organizations.verified-domains %}
 {% data reusables.organizations.add-a-domain %}
 {% data reusables.organizations.add-domain %}
 {% data reusables.organizations.domains-approve-it-instead %}
@@ -85,5 +87,6 @@ To verify a domain, you must have access to modify domain records with your doma
 {% data reusables.profile.access_org %}
 {% data reusables.profile.org_settings %}
 {% data reusables.organizations.verified-domains %}
-1. To the right of the domain to remove, click {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %}, then click **Delete**.
+1. To the right of the domain to remove, cli
+ck {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %}, then click **Delete**.
     !["Delete" for a domain](/assets/images/help/organizations/domains-delete.png)
